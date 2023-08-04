@@ -1,7 +1,7 @@
 //What are all the types of pokemon that a pokemon can have?
 mysql> SELECT primary_type from pokemons
-    -> UNION
-    -> SELECT secondary_type FROM pokemons;
+     UNION
+    SELECT secondary_type FROM pokemons;
 
     //What is the name of the pokemon with id 45?
     mysql> SELECT name FROM pokemons WHERE id = 45;
